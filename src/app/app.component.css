@@ -1,0 +1,30 @@
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.2em;
+}
+
+.kuchen-card {
+  text-align: center;
+}
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.kuchen-image {
+  max-width: 100%; /* Passt die Breite des Bildes an die Breite des Containers an */
+  height: auto; /* Erhält das Seitenverhältnis des Bildes */
+  display: block; /* Verhindert, dass das Bild über den Container hinausgeht */
+  margin: 0 auto; /* Zentriert das Bild */
+  max-height: 300px; /* Maximale Höhe des Bildes */
+  object-fit: cover; /* Schneidet das Bild, um es in den Container einzupassen */
+}
+
