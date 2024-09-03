@@ -7,13 +7,16 @@
   margin-bottom: 20px;
 }
 
-.card-title {
-  font-size: 1.2em;
+.kuchen-card {
+  max-width: 300px; /* Maximalbreite der Karte */
+  margin: 10px auto; /* Zentriert die Karte innerhalb der Spalte */
+  /* Optional: Reduziere die Schriftgröße */
 }
 
-.kuchen-card {
-  text-align: center;
+.card-title {
+  font-size: 1.25rem; /* Reduziere die Schriftgröße des Titels */
 }
+
 
 img.img-fluid {
   max-width: 100%;
@@ -26,5 +29,9 @@ img.img-fluid {
   margin: 0 auto; /* Zentriert das Bild */
   max-height: 300px; /* Maximale Höhe des Bildes */
   object-fit: cover; /* Schneidet das Bild, um es in den Container einzupassen */
+}
+
+.card-text {
+  font-size: 1rem; /* Reduziere die Schriftgröße des Textes */
 }
 
