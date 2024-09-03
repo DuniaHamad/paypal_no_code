@@ -39,7 +39,7 @@ export class AppComponent implements AfterViewInit {
       name: 'Hochzeitskuchen',
       preis: 50,
       bild: 'assets/kuchen2.jpg',
-      details: 'Ein köstlicher Vanillekuchen mit einer zarten Erdbeerfüllung, perfekt für jeden Anlass.',
+      details: 'Ein köstlicher Vanillekuchen mit einer zarten Erdbeerfüllung, perfekt für jeden Anlass. veruch versuch',
       paymentMethod: {
         type: 'button',
       }
