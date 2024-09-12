@@ -71,6 +71,9 @@ export class AppComponent implements AfterViewInit {
     }
   }
 
+  //Lädt das PayPal SDK nur dann, wenn es noch nicht vorhanden ist,
+  // und ruft nach erfolgreichem Laden
+  // die Methode initializePayPalButton() auf.
   loadPayPalScript(): void {
     if (document.getElementById('paypal-sdk-script')) {
       this.initializePayPalButton();
@@ -84,7 +87,8 @@ export class AppComponent implements AfterViewInit {
     document.body.appendChild(script);
   }
 
-
+  //Sorgt dafür, dass der PayPal-Zahlungsbutton im
+  // entsprechenden Bereich der Seite gerendert wird
   initializePayPalButton(): void {
     const buttonContainer = document.getElementById('paypal-container-W2WS9JQPP2JRL');
     if (buttonContainer && buttonContainer.childNodes.length === 0) {
@@ -99,6 +103,5 @@ export class AppComponent implements AfterViewInit {
   }
 
   ngAfterViewInit() {
-    // Initial call can be removed or modified if necessary
   }
 }
