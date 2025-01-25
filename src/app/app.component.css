@@ -8,13 +8,12 @@
 }
 
 .kuchen-card {
-  max-width: 300px; /* Maximalbreite der Karte */
-  margin: 10px auto; /* Zentriert die Karte innerhalb der Spalte */
-  /* Optional: Reduziere die Schriftgröße */
+  max-width: 300px;
+  margin: 10px auto; 
 }
 
 .card-title {
-  font-size: 1.25rem; /* Reduziere die Schriftgröße des Titels */
+  font-size: 1.25rem; 
 }
 
 
@@ -23,15 +22,15 @@ img.img-fluid {
   height: auto;
 }
 .kuchen-image {
-  max-width: 100%; /* Passt die Breite des Bildes an die Breite des Containers an */
-  height: auto; /* Erhält das Seitenverhältnis des Bildes */
-  display: block; /* Verhindert, dass das Bild über den Container hinausgeht */
-  margin: 0 auto; /* Zentriert das Bild */
-  max-height: 300px; /* Maximale Höhe des Bildes */
-  object-fit: cover; /* Schneidet das Bild, um es in den Container einzupassen */
+  max-width: 100%; 
+  height: auto;
+  display: block; 
+  margin: 0 auto;
+  max-height: 300px; 
+  object-fit: cover; 
 }
 
 .card-text {
-  font-size: 1rem; /* Reduziere die Schriftgröße des Textes */
+  font-size: 1rem;
 }
 
